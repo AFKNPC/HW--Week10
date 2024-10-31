@@ -1,0 +1,17 @@
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.csproj.AssemblyReference.cache
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.AssemblyInfoInputs.cache
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.AssemblyInfo.cs
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.csproj.CoreCompileInputs.cache
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\bin\Debug\net8.0\HW- Week10.exe
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\bin\Debug\net8.0\HW- Week10.deps.json
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\bin\Debug\net8.0\HW- Week10.runtimeconfig.json
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\bin\Debug\net8.0\HW- Week10.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\bin\Debug\net8.0\HW- Week10.pdb
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.csproj.Up2Date
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\refint\HW- Week10.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.pdb
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.genruntimeconfig.cache
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\ref\HW- Week10.dll

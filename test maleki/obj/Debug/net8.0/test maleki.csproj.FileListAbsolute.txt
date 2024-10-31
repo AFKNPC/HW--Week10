@@ -1,0 +1,17 @@
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\bin\Debug\net8.0\test maleki.exe
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\bin\Debug\net8.0\test maleki.deps.json
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\bin\Debug\net8.0\test maleki.runtimeconfig.json
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\bin\Debug\net8.0\test maleki.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\bin\Debug\net8.0\test maleki.pdb
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test maleki.csproj.AssemblyReference.cache
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test maleki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test maleki.AssemblyInfoInputs.cache
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test maleki.AssemblyInfo.cs
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test maleki.csproj.CoreCompileInputs.cache
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test mal.8EDB879F.Up2Date
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test maleki.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\refint\test maleki.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test maleki.pdb
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\test maleki.genruntimeconfig.cache
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\test maleki\test maleki\obj\Debug\net8.0\ref\test maleki.dll

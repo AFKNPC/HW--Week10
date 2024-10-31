@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|c:\\users\\-nima\\desktop\\c#\\\u0645\u06A9\u062A\u0628\\hw- week10\\test maleki\\test maleki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|solutionrelative:test maleki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|c:\\users\\-nima\\desktop\\c#\\\u0645\u06A9\u062A\u0628\\hw- week10\\test maleki\\test maleki\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|solutionrelative:test maleki\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|c:\\users\\-nima\\desktop\\c#\\\u0645\u06A9\u062A\u0628\\hw- week10\\test maleki\\test maleki\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|solutionrelative:test maleki\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|c:\\users\\-nima\\desktop\\c#\\\u0645\u06A9\u062A\u0628\\hw- week10\\test maleki\\test maleki\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|solutionrelative:test maleki\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|c:\\users\\-nima\\desktop\\c#\\\u0645\u06A9\u062A\u0628\\hw- week10\\test maleki\\test maleki\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F733D1D-371E-43B8-A2A2-0D03F2A8F77B}|test maleki\\test maleki.csproj|solutionrelative:test maleki\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 289,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\User.cs",
+              "RelativeDocumentMoniker": "test maleki\\User.cs",
+              "ToolTip": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\User.cs",
+              "RelativeToolTip": "test maleki\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T20:41:25.159Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\Session.cs",
+              "RelativeDocumentMoniker": "test maleki\\Session.cs",
+              "ToolTip": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\Session.cs",
+              "RelativeToolTip": "test maleki\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T20:45:33.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\UserRepository.cs",
+              "RelativeDocumentMoniker": "test maleki\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\UserRepository.cs",
+              "RelativeToolTip": "test maleki\\UserRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T20:43:23.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "test maleki\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\IUserRepository.cs",
+              "RelativeToolTip": "test maleki\\IUserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T20:42:35.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\Program.cs",
+              "RelativeDocumentMoniker": "test maleki\\Program.cs",
+              "ToolTip": "C:\\Users\\-Nima\\Desktop\\C#\\\u0645\u06A9\u062A\u0628\\HW- Week10\\test maleki\\test maleki\\Program.cs",
+              "RelativeToolTip": "test maleki\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T20:08:08.611Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

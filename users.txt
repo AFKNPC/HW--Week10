@@ -1,0 +1,52 @@
+[
+  {
+    "Username": "username sara",
+    "Passworeqwdfhb": "password 12@34",
+    "Status": "status [available]"
+  },
+  {
+    "Username": "username michael",
+    "Passworeqwdfhb": "password pass123",
+    "Status": "available"
+  },
+  {
+    "Username": "username jessica",
+    "Passworeqwdfhb": "password jessy321",
+    "Status": "available"
+  },
+  {
+    "Username": "username daniel",
+    "Passworeqwdfhb": "password dan#123",
+    "Status": "available"
+  },
+  {
+    "Username": "username emily",
+    "Passworeqwdfhb": "password emil@456",
+    "Status": "available"
+  },
+  {
+    "Username": "username samantha",
+    "Passworeqwdfhb": "password sammy987",
+    "Status": "available"
+  },
+  {
+    "Username": "username james",
+    "Passworeqwdfhb": "password j@mes567",
+    "Status": "available"
+  },
+  {
+    "Username": "username sarah",
+    "Passworeqwdfhb": "password sar#900",
+    "Status": "available"
+  },
+  {
+    "Username": "username saman",
+    "Passworeqwdfhb": "password sam#101",
+    "Status": "status [available]"
+  },
+  {
+    "Username": "username sar2a",
+    "Passworeqwdfhb": "password 12@35",
+    "Status": "not available"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "Username": "username username",
+    "Password": "password password",
+    "Status": "status available"
+  },
+  {
+    "Username": "username [username]",
+    "Password": "password [password]",
+    "Status": "available"
+  }
+]
