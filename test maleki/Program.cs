@@ -20,16 +20,16 @@ class Program
                 switch (Option.ToLower())
                 {
                     case "register":
-                        string username = GetValue(parts, 1);
-                        string password = GetValue(parts, 2);
+                        string username = GetParts(parts, 1);
+                        string password = GetParts(parts, 2);
                         var newUser = new User(username, password);
                         userRepository.Add(newUser);
                         Console.WriteLine("Registration successful!");
                         break;
 
                     case "login":
-                        username = GetValue(parts, 1);
-                        password = GetValue(parts, 2);
+                        username = GetParts(parts, 1);
+                        password = GetParts(parts, 2);
                         var user = userRepository.GetByUsername(username);
                         if (user != null && user.Password == password)
                         {
@@ -48,14 +48,14 @@ class Program
                             Console.WriteLine("You must be logged in to change status.");
                             break;
                         }
-                        string status = GetValue(parts, 1);
+                        string status = GetParts(parts, 1);
                         userRepository.ChangeStatus(Session.CurrentUser, status);
                         Console.WriteLine($"Status changed to {status}.");
                         break;
 
                     case "search":
-                        string searchUsername = GetValue(parts, 1);
-                        var foundUsers = userRepository.SearchByUsernamePrefix(searchUsername);
+                        string searchUsername = GetParts(parts, 1);
+                        var foundUsers = userRepository.SearchByUsername(searchUsername);
                         if (foundUsers.Count == 0)
                         {
                             Console.WriteLine("No users found.");
@@ -75,8 +75,8 @@ class Program
                             Console.WriteLine("You must be logged in to change password.");
                             break;
                         }
-                        string oldPassword = GetValue(parts, 1);
-                        string newPassword = GetValue(parts, 2);
+                        string oldPassword = GetParts(parts, 1);
+                        string newPassword = GetParts(parts, 2);
                         userRepository.ChangePassword(Session.CurrentUser, oldPassword, newPassword);
                         Console.WriteLine("Password changed successfully.");
                         break;
@@ -98,7 +98,7 @@ class Program
         }
     }
 
-    static string GetValue(string[] parts, int index)
+    static string GetParts(string[] parts, int index)
     {
         if (index >= parts.Length)
         {

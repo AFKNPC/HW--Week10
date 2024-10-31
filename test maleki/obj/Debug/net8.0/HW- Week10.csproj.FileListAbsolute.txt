@@ -15,3 +15,4 @@ C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\n
 C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.pdb
 C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.genruntimeconfig.cache
 C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\ref\HW- Week10.dll
+C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\test maleki\obj\Debug\net8.0\HW- Week10.sourcelink.json

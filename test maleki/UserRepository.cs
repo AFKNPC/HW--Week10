@@ -19,7 +19,7 @@ public class UserRepository : IUserRepository
     {
         if (!File.Exists(filePath))
         {
-            File.WriteAllText(filePath, "."); // ایجاد فایل اگر وجود نداشته باشد
+            File.WriteAllText(filePath, "."); 
         }
     }
 
@@ -90,9 +90,9 @@ public class UserRepository : IUserRepository
         }
     }
 
-    public List<User> SearchByUsernamePrefix(string prefix)
+    public List<User> SearchByUsername(string substring)
     {
         var users = GetAll();
-        return users.FindAll(u => u.Username.StartsWith(prefix));
+        return users.FindAll(u => u.Username.StartsWith(substring));
     }
 }

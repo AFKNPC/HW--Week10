@@ -14,5 +14,5 @@ public interface IUserRepository
     User GetByUsername(string username);
     void ChangeStatus(User user, string status);
     void ChangePassword(User user, string oldPassword, string newPassword);
-    List<User> SearchByUsernamePrefix(string prefix);
+    List<User> SearchByUsername(string substring);
 }
