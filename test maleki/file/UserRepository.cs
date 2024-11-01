@@ -8,10 +8,11 @@ using System.Xml;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
 using Formatting = Newtonsoft.Json.Formatting;
+using test_maleki.Entities;
 
-namespace test_maleki;
+namespace test_maleki.file;
 
-public class UserRepository : IUserRepository
+public class UserRepository
 {
     private string filePath = @"C:\Users\-Nima\Desktop\C#\مکتب\HW- Week10\HW- Week10\users.txt";
 
@@ -28,7 +29,7 @@ public class UserRepository : IUserRepository
         List<User> users = GetAll();
         if (users.Exists(u => u.Username == user.Username))
         {
-            throw new System.Exception("register failed! username already exists.");
+            throw new Exception("register failed! username already exists.");
         }
 
         users.Add(user);
@@ -39,13 +40,13 @@ public class UserRepository : IUserRepository
     {
         string jsonData = File.ReadAllText(filePath);
 
-        
+
         if (string.IsNullOrEmpty(jsonData))
         {
-            return new List<User>(); 
+            return new List<User>();
         }
 
-        
+
         return JsonConvert.DeserializeObject<List<User>>(jsonData) ?? new List<User>();
     }
 
@@ -61,7 +62,7 @@ public class UserRepository : IUserRepository
         return users.Find(u => u.Username == username);
     }
 
-    public void ChangeStatus(User user, string status)
+    public void ChangeStatus(User user, bool status)
     {
         var users = GetAll();
         var existingUser = users.Find(u => u.Username == user.Username);
@@ -82,10 +83,10 @@ public class UserRepository : IUserRepository
             {
                 existingUser.Password = newPassword;
                 SaveAll(users);
-            } 
+            }
             else
             {
-                throw new System.Exception("ChangePassword failed! Old password is incorrect.");
+                throw new Exception("ChangePassword failed! Old password is incorrect.");
             }
         }
     }

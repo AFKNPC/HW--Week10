@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 using test_maleki;
+using test_maleki.Dapper;
+using test_maleki.Entities;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        var userRepository = new UserRepository();
+        var dapServises = new DapperServices();
 
         while (true)
         {
@@ -20,17 +23,17 @@ class Program
                 switch (Option.ToLower())
                 {
                     case "register":
-                        string username = GetValue(parts, 1);
-                        string password = GetValue(parts, 2);
+                        string username = CleanString(GetValue(parts, 1),1);
+                        string password = CleanString(GetValue(parts, 2),1);
                         var newUser = new User(username, password);
-                        userRepository.Add(newUser);
+                        dapServises.Add(newUser);
                         Console.WriteLine("Registration successful!");
                         break;
 
                     case "login":
-                        username = GetValue(parts, 1);
-                        password = GetValue(parts, 2);
-                        var user = userRepository.GetByUsername(username);
+                        username = CleanString(GetValue(parts, 1), 1);
+                        password = CleanString(GetValue(parts, 2), 1);
+                        var user = dapServises.GetByUsername(username);
                         if (user != null && user.Password == password)
                         {
                             Session.CurrentUser = user;
@@ -43,19 +46,36 @@ class Program
                         break;
 
                     case "change":
+                        bool isavailable=false;
+                        
                         if (Session.CurrentUser == null)
                         {
                             Console.WriteLine("You must be logged in to change status.");
                             break;
                         }
-                        string status = GetValue(parts, 1);
-                        userRepository.ChangeStatus(Session.CurrentUser, status);
-                        Console.WriteLine($"Status changed to {status}.");
+                        string input = CleanString(GetValue(parts, 1), 1);
+                        if (input == "available")
+                        {
+                            isavailable = true;
+                            Console.WriteLine($"Status changed to {input}.");
+                        }
+                        else if (input == "not available")
+                        {
+                            isavailable = false;
+                            Console.WriteLine($"Status changed to {input}.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("format example(Change --status [available],Change --status [not available])");
+                            throw new Exception("wrong format");
+                        }
+                        dapServises.ChangeStatus(Session.CurrentUser, isavailable);
+                        
                         break;
 
                     case "search":
-                        string searchUsername = GetValue(parts, 1);
-                        var foundUsers = userRepository.SearchByUsernamePrefix(searchUsername);
+                        string searchUsername = CleanString(GetValue(parts, 1), 1);
+                        var foundUsers = dapServises.SearchByUsernamePrefix(searchUsername);
                         if (foundUsers.Count == 0)
                         {
                             Console.WriteLine("No users found.");
@@ -75,9 +95,9 @@ class Program
                             Console.WriteLine("You must be logged in to change password.");
                             break;
                         }
-                        string oldPassword = GetValue(parts, 1);
-                        string newPassword = GetValue(parts, 2);
-                        userRepository.ChangePassword(Session.CurrentUser, oldPassword, newPassword);
+                        string oldPassword = CleanString(GetValue(parts, 1), 1);
+                        string newPassword = CleanString(GetValue(parts, 2), 1);
+                        dapServises.ChangePassword(Session.CurrentUser, oldPassword, newPassword);
                         Console.WriteLine("Password changed successfully.");
                         break;
 
@@ -105,5 +125,24 @@ class Program
             throw new Exception("Missing value for key.");
         }
         return parts[index].Trim();
+    }
+    public static string CleanString(string input,int index)
+    {
+
+        string[] result = input.Split(' ');
+        string final = GetValue(result, index);
+
+        if (final == null || final != null && final.Substring(0) == " ")
+        {
+            throw new Exception(" wrong format of command, make sure you write in right format");
+            return null;
+        }
+        if (final == null || final == "")
+        {
+            throw new Exception(" wrong format of command, make sure you write in right format");
+            return null;
+        }
+
+        return final;
     }
 }

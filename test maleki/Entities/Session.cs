@@ -1,5 +1,4 @@
-﻿
-namespace test_maleki;
+﻿namespace test_maleki.Entities;
 
 public static class Session
 {

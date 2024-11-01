@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using test_maleki.Entities;
 
-namespace test_maleki;
+namespace test_maleki.file;
 
 
 public interface IUserRepository
